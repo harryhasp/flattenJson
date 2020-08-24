@@ -17,7 +17,7 @@ def json_flatten(data):
         """
         Recursively flatten each key with its value
 
-        :param key: str or dict -> The key where we're about to flatten / can be str or dict
+        :param key: str or dict -> The key where we're about to flatten / based on requirements, it cannot be a list
         :param prefix: str -> The prefix which will be used for the new key of the flatten json
         :return: No return. Result is being stored at the result variable of the parent function
         """
